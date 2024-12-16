@@ -1,0 +1,29 @@
+#画师选取配置
+artist_selector:
+  #画师选取数量
+  min_count: 4
+  max_count: 9
+  #权重
+  min_weight: 0.7
+  max_weight: 1.2
+  #最小作品数
+  min_works: 200
+  #选取模式
+  mode: "only" #random:纯随机选取,only:一轮中所有tag仅选取一次
+
+#角色选取配置
+character_selector:
+  #角色选取数量
+  min_count: 1
+  max_count: 1
+  #权重
+  min_weight: 1
+  max_weight: 1
+  #最小作品数
+  min_total_works: 200
+  min_solo_works: 50
+  #选取模式
+  mode: "only" #random:纯随机选取,only:一轮中所有tag仅选取一次
+
+
+
